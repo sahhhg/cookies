@@ -87,7 +87,8 @@ app.get('/produtos', (req, res) => {
     <html>
     <head><title>Cadastro de Produtos</title>
     <style>
-    h1{text-align:center}
+    body{text-align:center}
+    </style>
     </head>
     <body>
       <h1>Cadastro de Produtos</h1>
