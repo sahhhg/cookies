@@ -22,7 +22,6 @@ app.get('/login', (req, res) => {
       <title>Login</title>
       <style>
         h1{text-align:center}
-        form{text-align:center}
       </style>
     </head>
     <body>
