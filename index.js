@@ -18,7 +18,13 @@ let listaDeProdutos = [];
 app.get('/login', (req, res) => {
   res.send(`
     <html>
-    <head><title>Login</title></head>
+    <head>
+      <title>Login</title>
+      <style>
+        h1{text-align:center}
+        form{text-align:center}
+      <style
+    </head>
     <body>
       <h1>Login</h1>
       <form action="/login" method="POST">
