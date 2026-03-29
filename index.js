@@ -21,7 +21,8 @@ app.get('/login', (req, res) => {
     <head>
       <title>Login</title>
       <style>
-        h1{text-align:center}
+        h1{text-align:center;padding:10px}
+        form{padding:10px}
       </style>
     </head>
     <body>
@@ -85,7 +86,10 @@ app.get('/produtos', (req, res) => {
 
   res.send(`
     <html>
-    <head><title>Cadastro de Produtos</title></head>
+    <head><title>Cadastro de Produtos</title>
+    <style>
+    h1{text-align:center}
+    </head>
     <body>
       <h1>Cadastro de Produtos</h1>
       <p>Usuário logado: ${req.session.usuario}</p>
